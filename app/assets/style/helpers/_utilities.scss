@@ -1,0 +1,13 @@
+// 擴充通用類別
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size": (
+      responsive: true,
+      rfs: false,
+      property: font-size,
+      class: fs,
+      values: $font-sizes
+    ),
+  )
+);
